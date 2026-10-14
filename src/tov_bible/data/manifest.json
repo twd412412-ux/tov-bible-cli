@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "source_url": "https://bible.jbch.org/",
+  "translation": "토브성경 개역한글",
+  "language": "kor",
+  "dataset_version": "2026-10-14-ff9976ffe458",
+  "acquired_at": "2026-10-14T11:37:09.626Z",
+  "acquisition": "Official Tov offline IndexedDB snapshot; original verse sentence preserved",
+  "browser_export_sha256": "2134320433b1cce6eeeb6f97e8de34d4de2d056b7694d5eaf261b74dd20da1cd",
+  "dataset_sha256": "ff9976ffe4583bbb24702ab6fea7e6d5587fd57ecbd1ea5ddb1c394e6c01cd89",
+  "compressed_sha256": "8f3310cf975561aa46a85d72bb036ec401a3fb21d6496606ed842781c8ba4499",
+  "counts": {
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31101,
+    "unique_codes": 31101
+  },
+  "uncompressed_bytes": 7022113,
+  "compressed_bytes": 1548591,
+  "scope": "Private personal/family use. No account data. No other Bible source."
+}

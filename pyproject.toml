@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tov-bible-cli"
+version = "0.1.0"
+description = "Offline, source-pinned Tov Korean Revised Bible CLI for people and AI agents"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+tov = "tov_bible.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+tov_bible = ["data/*.json", "data/*.gz"]
