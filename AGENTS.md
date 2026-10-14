@@ -7,3 +7,4 @@
 - Keep personal annotations/history and credentials out of the corpus and Git history.
 - Match errors and pagination honestly. No quotations or reference-only verification cannot count as complete quote validation.
 - Run meaningful tests and packaged-data smoke tests before release. Never claim Windows validation based only on a platform-independent wheel.
+- Installation/lookup requests do not authorize editing or pushing this remote repository. Install both skill folders and the CLI without overwriting existing user skills; preserve their sermon workflow and Tov-only source rule.

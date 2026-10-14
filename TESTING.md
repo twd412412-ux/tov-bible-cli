@@ -12,3 +12,12 @@
 - Windows syntax/usage is documented, but this release has not been executed on a Windows host.
 
 Tests check implementation and preservation, not whether Tov's text is theologically or editorially correct. Tov is the chosen authority. No alternative Bible corpus or website is used for quotation verification.
+
+## Public sermon-skill bundle
+
+- The current sermon skill's instructions, templates, both unchanged Python helpers, setup guide, and upstream metadata/reference files are included under `skills/youtube-video-transcript`.
+- Setup documentation now points to the public repository; cloning requires no GitHub or Tov account. Local installation paths and executable-path handoff are documented.
+- Both skill folders pass the skill frontmatter validator. Bundled relative links are checked.
+- 21 unittest cases cover the original CLI behavior and preserving exact Tov quotation text through Apple Notes formatting.
+- No personal memory, captions, completed sermons, browser exports, cookies, or credentials are added to the public skill bundle.
+- This packaging verification is not a new full YouTube-sermon run. The initial CLI-only verification above is historical; the current sermon skill has since been connected to Tov.
